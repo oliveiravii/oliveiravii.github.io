@@ -32,6 +32,15 @@
   color: #525252;
 }
 
+.bikcraft {
+  text-decoration: none;
+  color: #00B4D8;
+}
+
+.bikcraft:hover {
+  color: #90E0EF;
+}
+
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
@@ -50,6 +59,9 @@
     width: 30px;
     height: 10px;
     left: 0px;
+  }
+  .introducao p {
+   margin-bottom: 20px;
   }
 }
 

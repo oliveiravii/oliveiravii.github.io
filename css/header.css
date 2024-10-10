@@ -30,7 +30,7 @@
   display: block;
   height: 2px;
   width: 100%;
-  background: #141414;
+  background: #00B4D8;
   margin-top: 4px;
   transition: transform 0.3s ease;
   position: absolute;
@@ -55,4 +55,8 @@
     background-color: #f5f5f5;
     border-radius: 4px;
   }
+  .header-menu a:hover:after,
+.header-menu a.ativo::after {
+  display: none;
+}
 }

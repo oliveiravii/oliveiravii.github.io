@@ -32,7 +32,7 @@
 }
 
 .footer-contato li a:hover {
-  color: #8f8f8f;
+  color: #00B4D8;
 }
 
 li .email {
@@ -41,24 +41,24 @@ li .email {
 }
 
 li .email::before {
-  content: '';
+  content: "";
   display: inline-block;
-  width: 24px; 
+  width: 24px;
   height: 24px;
-  background-image: url('../img/email.svg');
+  background-image: url("../img/email.svg");
   background-size: cover;
-  margin-right: 10px; 
-  vertical-align: middle; 
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 li .telefone::before {
-  content: '';
+  content: "";
   display: inline-block;
-  width: 24px; 
-  height: 24px; 
-  background-image: url('../img/telefone.svg'); 
-  background-size: cover; 
-  margin-right: 10px; 
+  width: 24px;
+  height: 24px;
+  background-image: url("../img/telefone.svg");
+  background-size: cover;
+  margin-right: 10px;
 }
 
 .footer-copy {

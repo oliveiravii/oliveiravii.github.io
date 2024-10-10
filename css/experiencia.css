@@ -82,6 +82,12 @@
   padding: 5px 10px;
 }
 
+.empresa:hover{
+  top: -4px;
+  box-shadow:0 2px 2px #00B4D8;
+  transition: all .2s ease-in-out;
+}
+
 @media (max-width: 800px) {
   .experiencia {
     grid-template-columns: 1fr;

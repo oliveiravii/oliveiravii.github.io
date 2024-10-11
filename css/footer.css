@@ -75,3 +75,8 @@ li .telefone::before {
     font-size: 1.125rem;
   }
 }
+@media (max-width: 400px) {
+  .footer-contato li {
+    font-size: 1rem;
+  }
+}
